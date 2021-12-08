@@ -10,7 +10,8 @@
 // @require      https://code.jquery.com/jquery-latest.js
 // ==/UserScript==
 
-$(function() {
-    //$("div[cursor=none] > div:first-child").css("display", "none");
-    $("div.eRVfii").css("display", "none");
-})();
+var checkExist = setInterval(function() {
+   if ($("div.eRVfii").length) {
+       $("div.eRVfii").hide();
+   }
+}, 100);
