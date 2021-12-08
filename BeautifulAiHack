@@ -11,7 +11,5 @@
 // ==/UserScript==
 
 var checkExist = setInterval(function() {
-   if ($("div.eRVfii").length) {
-       $("div.eRVfii").hide();
-   }
+   if ($("div.eRVfii").length) { $("div.eRVfii").hide(); }
 }, 100);
