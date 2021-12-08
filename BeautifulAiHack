@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name         RmBeautifulAIBlock
+// @name         BeautifulAiHack
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Remove beautiful.ai's annoying blocking div element
 // @author       Lucas
-// @match        https://www.beautiful.ai/
+// @match        *www.beautiful.ai/*
 // @icon         https://www.google.com/s2/favicons?domain=beautiful.ai
 // @grant        none
 // @require      https://code.jquery.com/jquery-latest.js
