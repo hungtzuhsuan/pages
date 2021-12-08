@@ -11,5 +11,5 @@
 // ==/UserScript==
 
 $(function() {
-    $("div[cursor='none'] > div:first-child").css("display", "none");
+    $("div[cursor=none] > div:first-child").css("display", "none");
 })();
